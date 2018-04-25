@@ -1,0 +1,51 @@
+head {
+
+}
+
+body {
+
+}
+
+.maintitle {
+  transform: translateX(-50%); text-align: center;
+  margin-left: 50%; margin-top: 2.3%;
+  color: #5882FA; font-size: 40px;
+  font-family: monospace;
+}
+
+.logo {
+  position: absolute; top: 3%; left: 1%;
+  height: 10%; width: auto;
+}
+
+#banda {
+  background-color: #0B3861; width: 100%; height: 15.5%;
+  margin-left: -8px; z-index: -1;
+  position: absolute; top: 0px;
+}
+
+.menu {
+  font-family: monospace; font-size: 25px; color: #5882FA;
+  text-align: right;
+}
+
+.menu:hover {
+  text-decoration: underline;
+  color: #A9D0F5;
+}
+
+.menu:visited {
+  color: #5882FA;
+}
+
+#roster { transform: translateX(-50%);
+  position: absolute; top: 16%; left: 25%;
+}
+
+#champions { transform: translateX(-50%);
+  position: absolute; top: 16%; left: 50%;
+}
+
+#ppv { transform: translateX(-50%);
+  position: absolute; top: 16%; left: 75%;
+}
