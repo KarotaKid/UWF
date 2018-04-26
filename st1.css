@@ -49,3 +49,32 @@ body {
 #ppv { transform: translateX(-50%);
   position: absolute; top: 16%; left: 75%;
 }
+
+ul {
+  background: #0B3861; opacity: 1;
+    padding-right: 10px; padding-top: 5px; padding-bottom: 5px;
+    list-style-type: none; width: 3250%;
+    margin-left: 0px;
+  }
+
+.wrestler {
+  font-family: monospace; transform-origin: center;
+  color: #5882FA; text-transform: uppercase; text-decoration: none;
+}
+
+.wrestler:hover {
+  text-decoration: underline;
+  color: #A9D0F5;
+}
+
+.wrestler:visited {
+  color: #5882FA;
+}
+
+.list {
+  position: absolute; left: 50px; top: 16%;
+}
+
+#id01 {
+  position: absolute; left: -50px;
+}
