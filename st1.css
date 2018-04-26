@@ -83,3 +83,8 @@ li {
 #myUL {
   margin-top: 120px;
 }
+
+.shows { transform-origin: center;
+  width: 45%; height: auto;
+  position: fixed; top: 10%; left: 27.5%;
+}
